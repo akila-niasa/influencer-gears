@@ -1,25 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=M+PLUS+1p&family=Poppins:wght@500&family=Secular+One&display=swap');
+header{
+    padding-left: 15px;
+    color: #18191F;
+}
 body{
     font-family: 'Poppins', sans-serif; 
     
 }
-main{
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-}
-
 .container{
     background-color: #ffff;
 width: 800px;
- padding: 25px;
+ padding-left: 80px;
 margin-top: 12px;
 margin-right: 15px;
+margin-left: 15px;
 border-radius: 5px;
-}
-.intro{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+padding-top: 10px;
 }
 .jotrney{width: 582px;
     height: 279px;
@@ -33,6 +29,10 @@ border-radius: 41px;
 .new{
     background-color: none !important;
     color: #FFFFFF !important;
+}
+.intro{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 .intro img{ 
     width: 440px;
@@ -51,11 +51,24 @@ height: 414px;
  }
  .collection{
     color: #18191F;
+    padding-right: 5px;
  }
  .collection img{
     width: 300px;
     height: 256px;
  }
  .filled{
-     color: #FB8200;;
+     color: #FB8200;
  }
+ .see{
+     color:#E02C6D ;
+     display: flex;
+     align-items: center;
+     padding-left: 710px;
+ }
+ footer{
+     background-color: rgb(3, 3, 44);
+     color: #FFFFFF;
+     padding-left: 500px;
+ }
+
